@@ -1,0 +1,49 @@
+body {
+    background: url(/images/sunset-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-family: "Playfair Display";
+    font-weight: 500;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.words {
+    color: #FFF;
+    text-align: center;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+#button {
+    margin-top: 8em;
+}
+
+#button:hover {
+    background-color: rgb(211, 211, 211);
+    border-color: rgb(211, 211, 211);
+}
+
+@media (max-width: 493px) {
+    #button {
+        margin-top: 12em;
+    }
+}

@@ -4,7 +4,7 @@ Generate random quotes about life, happiness, love, and more.
 
 
 
-Link: 
+Link: https://quotegeneratorbybianca.netlify.app/
 
 
 
